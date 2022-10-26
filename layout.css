@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    min-width: 320px;
+}
+
+button{
+    background-color: tomato;
+    border-style: none;
+    padding: 0.4em;
+    color: white;
+    text-align: center;
+}
+
+a{
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+.heroArea{
+    position: relative;
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.heroBox{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: center;
+    align-content: center;
+}
+
+.heroBar{
+    width: 100%;
+    height: 15%;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff70;
+}
+
+.heroText{
+    height: 80%;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#downArrow{
+    height: 5%;
+    transform: rotate(180deg);
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.aboutArea{
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.aboutArticle{
+    width: 70%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+}
+
+.headerBlack{
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+    padding-top: 5%;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+}
